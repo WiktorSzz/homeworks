@@ -1,4 +1,9 @@
-package pl.kurs.homeworks.lessonenumeratedtype;
+package pl.kurs.homeworks.lessonenumeratedtype.app;
+
+import pl.kurs.homeworks.lessonenumeratedtype.models.Employee;
+import pl.kurs.homeworks.lessonenumeratedtype.models.JobPosition;
+import pl.kurs.homeworks.lessonenumeratedtype.models.Prize;
+import pl.kurs.homeworks.lessonenumeratedtype.models.Salary;
 
 public class Runner {
     public static void main(String[] args) {

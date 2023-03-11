@@ -1,4 +1,4 @@
-package pl.kurs.homeworks.lessonenumeratedtype;
+package pl.kurs.homeworks.lessonenumeratedtype.models;
 
 public enum JobPosition {
     ASPIRANT,

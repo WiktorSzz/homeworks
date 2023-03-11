@@ -1,4 +1,4 @@
-package pl.kurs.homeworks.lessonenumeratedtype;
+package pl.kurs.homeworks.lessonenumeratedtype.models;
 
 import java.util.Arrays;
 
