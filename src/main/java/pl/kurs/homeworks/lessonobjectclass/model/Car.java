@@ -1,10 +1,15 @@
 package pl.kurs.homeworks.lessonobjectclass.model;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class Car {
+public class Car implements Serializable {
+    static final long serialVersionUID = 1L;
     private String producer;
     private String model;
+
+    public Car() {
+    }
 
     public Car(String producer, String model) {
         this.producer = producer;
