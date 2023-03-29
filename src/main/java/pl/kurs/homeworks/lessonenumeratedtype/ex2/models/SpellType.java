@@ -1,7 +1,10 @@
 package pl.kurs.homeworks.lessonenumeratedtype.ex2.models;
 
 public enum SpellType {
-    HEAL("Leczenie", 30.0), FIREBALL("Kula ognia", -25.0), LIGHTNING_STRIKE("Rażenie piorunem", -20.0);
+    HEAL("Leczenie", 30.0),
+    FIREBALL("Kula ognia", -25.0),
+    LIGHTNING_STRIKE("Rażenie piorunem", -20.0);
+
 
     private final String description;
     private final double hpEffect;
@@ -15,4 +18,7 @@ public enum SpellType {
         return description;
     }
 
+    public double getHpEffect() {
+        return hpEffect;
+    }
 }
